@@ -1,4 +1,8 @@
-# Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
+Name: varsha.k
+
+ref number: 23005952
+
+# Exp 02 Implementation of Half Adder and Full Adder circuit
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
 ### AIM:
@@ -35,20 +39,42 @@ Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
-Program:
-/*
-Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
+# Program:
+# Half adder:
+```
+module exp3(sum, carry,a,b); 
+input a,b; 
+output sum,carry; 
+xor sum1(sum,a,b); 
+and carry1(carry,a,b); 
+endmodule
+```
+# full adder:
+```
+module fulladder(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+xor(sum,a,b,c);
+assign carry=a&b | b&c | a&c;
+endmodule
+```
 
-### Output:
-### RTL
+# RTL realisation:
+# Half Adder:
+![image](https://github.com/Varshakumaran/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979367/6422ea4e-c4b9-495b-ae95-2a4aea82ce4a)
+# Full Adder:
+![image](https://github.com/Varshakumaran/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979367/fa95f593-9b97-487c-936d-c086f7659e8c)
+
 ### TIMING DIAGRAM
+# Half Adder:
+![image](https://github.com/Varshakumaran/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979367/67923fcf-95b0-433d-ae6f-17757770736a)
+# Full Adder:
+![image](https://github.com/Varshakumaran/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979367/fea0a5be-d72e-4b78-8ca8-ce09d347044e)
 
-
-### TRUTH TABLE 
+### TRUTH TABLE :
+# Half Adder:
+![image](https://github.com/Varshakumaran/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979367/7eb3c113-28cb-4388-9f66-0f3853bd9413)
+# Full Adder:
+![image](https://github.com/Varshakumaran/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979367/61c60d0c-2c50-4286-9c31-c5460ade0e87)
 
 ### Result:
