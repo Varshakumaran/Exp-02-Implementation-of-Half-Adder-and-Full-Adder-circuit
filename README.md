@@ -2,9 +2,7 @@ Name: varsha.k
 
 ref number: 23005952
 
-# Exp 02 Implementation of Half Adder and Full Adder circuit
-
-# Implementation-of-Half-Adder-and-Full-Adder-circuit
+# Exp 02 Implementation of Half Adder and Full Adder circuit:
 ### AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
@@ -78,3 +76,4 @@ endmodule
 ![image](https://github.com/Varshakumaran/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979367/61c60d0c-2c50-4286-9c31-c5460ade0e87)
 
 ### Result:
+Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
