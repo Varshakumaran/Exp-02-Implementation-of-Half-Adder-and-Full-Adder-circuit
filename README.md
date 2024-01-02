@@ -1,6 +1,6 @@
-Name: varsha.k
+## Name: varsha.k
 
-ref number: 23005952
+## ref number: 23005952
 
 # Exp 02 Implementation of Half Adder and Full Adder circuit:
 ### AIM:
